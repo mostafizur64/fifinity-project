@@ -8,12 +8,12 @@ import Container from "../../../components/Container";
 const Brand = () => {
   return (
     <Container>
-      <div className="grid grid-cols-1 lg:grid-cols-5 justify-between items-center gap-36 mt-[70px]">
-        <img src={img1} alt="brand1" />
-        <img src={img2} alt="brand2" />
-        <img src={img3} alt="brand3" />
-        <img src={img4} alt="brand4" />
-        <img src={img5} alt="brand5" />
+      <div className="grid grid-cols-1 lg:grid-cols-5 justify-between sm:flex lg:gap-[176px] gap-20 lg:p-0 px-20 mx-auto lg:mt-[70px] -mt-[215px] ">
+        <img className="w-[157px] h-[37px]" src={img1} alt="brand1" />
+        <img className="w-[157px] h-[37px]" src={img2} alt="brand2" />
+        <img className="w-[157px] h-[37px]" src={img3} alt="brand3" />
+        <img className="w-[157px] h-[37px]" src={img4} alt="brand4" />
+        <img className="w-[157px] h-[37px]" src={img5} alt="brand5" />
       </div>
     </Container>
   );

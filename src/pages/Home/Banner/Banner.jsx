@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "../../../components/Container";
 import bannerImg from "../../../assets/image/bannerImg/Union.png";
-import shadow1 from "../../../assets/image/shadowImage/shadow1.png";
-import shadow2 from "../../../assets/image/shadowImage/shadow2.png";
-import shadow3 from "../../../assets/image/shadowImage/shadow3.png";
+// import shadow1 from "../../../assets/image/shadowImage/shadow1.png";
+// import shadow2 from "../../../assets/image/shadowImage/shadow2.png";
+// import shadow3 from "../../../assets/image/shadowImage/shadow3.png";
 import DemoVideo from "./DemoVideo";
 const Banner = () => {
   return (
@@ -20,7 +20,7 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="relative">
+        {/* <div className="relative">
           <img
             className=" absolute w-[1560px] h-[1560px] top-[50px] text-red-500 shodow1"
             src={shadow1}
@@ -36,7 +36,7 @@ const Banner = () => {
             src={shadow3}
             alt="shadow3"
           />
-        </div>
+        </div> */}
 
         {/* second large banner heading */}
         <div className="text-center lg:mt-[40px] ">
