@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.launch_btn {
+  display: flex;
+  padding: 18px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 38px;
+  border: 0.5px solid var(--7-a-49-ff, #7a49ff);
+  background: linear-gradient(
+    180deg,
+    rgba(207, 184, 255, 0.24) 0%,
+    rgba(207, 184, 255, 0) 100%
+  );
+  backdrop-filter: blur(4px);
+}
+.trail_Btn {
+  display: flex;
+  padding: 18px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 38px;
+  border: 0.5px solid rgba(122, 73, 255, 0.3);
+  background: rgba(207, 184, 255, 0.01);
+  backdrop-filter: blur(3px);
+}
+
+/* video height and width set  */
+.custom-react-player {
+  width: 1520px !important;
+  height: 986px !important;
+}
+
+/* video play */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+}
+
+.custom-react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+/* Your existing CSS */
+
+.custom-button.active {
+  background-color: #e74c3c;
+}
+
+.custom-button.active:hover {
+  background-color: #c0392b;
+}
+/* shadow image  */
+.shodow1 {
+  border-radius: 1560px;
+}
+.shodow2 {
+  border-radius: 1444px;
+}
+.shodow3 {
+  border-radius: 1224px;
+}
