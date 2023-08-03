@@ -5,10 +5,12 @@ const MarketMaker = () => {
   return (
     <Container>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 mt-[180px]">
-        <div className="lg:p-[50px]">
+        <div className="lg:p-[50px] mt-12">
           {/* left side */}
-          <h2>Proactive Market Maker</h2>
-          <p>
+          <h2 className="text-[45px] capitalize text-[#FFF]">
+            Proactive Market Maker
+          </h2>
+          <p className="text-xl capitalize font-normal mt-4 mb-10 text-[#64677C]">
             A highly optimized proactive market maker designed to improve
             capital efficiency and reduce impermanent loss.
           </p>
@@ -17,7 +19,7 @@ const MarketMaker = () => {
               <div className="space-y-[32px]">
                 <div className="relative ">
                   <input
-                    className="custom-value px-[30px] py-[24px] "
+                    className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
                     placeholder="01 - Concentrated Liquidity"
                   />
@@ -29,7 +31,7 @@ const MarketMaker = () => {
                 </div>
                 <div className="relative">
                   <input
-                    className="custom-value px-[30px] py-[24px]"
+                    className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
                     placeholder="01 - Concentrated Liquidity"
                   />
@@ -41,7 +43,7 @@ const MarketMaker = () => {
                 </div>
                 <div className="relative">
                   <input
-                    className="custom-value px-[30px] py-[24px]"
+                    className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
                     placeholder="01 - Concentrated Liquidity"
                   />
@@ -78,7 +80,7 @@ const MarketMaker = () => {
           </h2>
           <div>
             <div
-              className="lg:h-[572px] bg-[#070018] p-[50px]"
+              className="lg:h-[572px] bg-[#070018] p-[50px] mt-[42px]"
               style={{
                 background: "rgba(110, 117, 210, 0.03)",
               }}
@@ -86,7 +88,7 @@ const MarketMaker = () => {
               <h3 className="text-[22px] text-[#FFFFFF]">Assets To Supplies</h3>
               <div className="bg-[#070018] " />
               <img
-                className="img-fluid w-full  mt-4"
+                className=" lg:h-[400px] lg:w-[400px]  h-[200px] w-[300px] mt-4"
                 src="https://media.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2147483647&v=beta&t=J3kUMZwIphc90TFKH5oOO9Sa9K59fimgJf-s_okU3zs"
                 alt="image"
               />
