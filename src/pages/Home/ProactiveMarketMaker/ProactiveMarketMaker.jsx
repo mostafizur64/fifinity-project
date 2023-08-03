@@ -6,8 +6,8 @@ import lineBar from "../../../assets/image/proactiveImage/line.png";
 const ProactiveMarketMaker = () => {
   return (
     <ContainerTwo>
-      <div className="bg">
-        <div className="text-center p-[100px]">
+      <div className="bg lg:mt-[180px]">
+        <div className="text-center lg:p-[100px]">
           <h2 className="text-[45px] capitalize text-[#FFF] ">
             Proactive Market Maker
           </h2>
@@ -39,12 +39,11 @@ const ProactiveMarketMaker = () => {
                     <FaDrupal size={40} />
                     <div className="border-r border-[#A787FF] lg:mt-[25px] lg:pt-[30px] -right-[33px]  absolute" />
                     <h2 className="text-[24px] mt-[24px] text-[#FFF] ">
-                      Liquidity Providers 50%
+                    Rase Pool  05%
                     </h2>
                     <div className="border-l border-[#A787FF] lg:-mt-[30px] lg:pt-[30px] lg:-left-[32px]  absolute" />
                     <p className="text-[16px] font-normal mt-4 text-[#64677C] capitalize">
-                      A highly optimized proactive market maker designed to
-                      improve capital efficiency and reduce impermanent loss.
+                    We Buy POL From the Market And Distribute these Tokens Among Advanced Platform Users Who Put Their Pols In The Staking Smart Contact
                     </p>
                   </div>
                 </div>
@@ -63,24 +62,22 @@ const ProactiveMarketMaker = () => {
                     <FaDrupal size={40} />
                     <div className="border-r border-[#A787FF] lg:mt-[25px] lg:pt-[30px] -right-[33px]  absolute" />
                     <h2 className="text-[24px] mt-[24px] text-[#FFF] ">
-                      Liquidity Providers 50%
+                    Buy Back And Burn 15%
                     </h2>
                     <div className="border-l border-[#A787FF] lg:-mt-[30px] lg:pt-[30px] lg:-left-[32px]  absolute" />
                     <p className="text-[16px] font-normal mt-4 text-[#64677C] capitalize">
-                      A highly optimized proactive market maker designed to
-                      improve capital efficiency and reduce impermanent loss.
+                    A highly optimized proactive market maker designed to improve capital efficiency and reduce impermanent loss.
                     </p>
                   </div>
                   <div className="relative">
                     <FaDrupal size={40} />
                     <div className="border-r border-[#A787FF] lg:mt-[25px] lg:pt-[30px] -right-[33px]  absolute" />
                     <h2 className="text-[24px] mt-[24px] text-[#FFF] ">
-                      Liquidity Providers 50%
+                    Advanced Users 30%
                     </h2>
                     <div className="border-l border-[#A787FF] lg:-mt-[30px] lg:pt-[30px] lg:-left-[32px]  absolute" />
                     <p className="text-[16px] font-normal mt-4 text-[#64677C] capitalize">
-                      A highly optimized proactive market maker designed to
-                      improve capital efficiency and reduce impermanent loss.
+                    We Buy POL From the Market And Distribute these Tokens Among Advanced Platform Users Who Put Their Pols In The Staking Smart Contact
                     </p>
                   </div>
                 </div>

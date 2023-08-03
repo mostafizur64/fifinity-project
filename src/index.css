@@ -103,8 +103,12 @@
   background: black;
   border-radius: 30px;
 }
-.image img {
-  flex-shrink: 0;
-  
-  
+/* footer  */
+
+.footer {
+  background-image: url("../src/assets/image/Footer/footer.png");
+
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 180px;
 }
