@@ -8,12 +8,32 @@ import Container from "../../../components/Container";
 const Brand = () => {
   return (
     <Container>
-      <div className=" grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 justify-between sm:flex lg:gap-[176px] gap-20 lg:p-0 px-20 mx-auto lg:mt-[70px] -mt-[215px] z-50">
-        <img className="lg:w-[157px] lg:h-[37px] w-full" src={img1} alt="brand1" />
-        <img className="lg:w-[157px] lg:h-[37px] w-full" src={img2} alt="brand2" />
-        <img className="lg:w-[157px] lg:h-[37px] w-full" src={img3} alt="brand3" />
-        <img className="lg:w-[157px] lg:h-[37px] w-full" src={img4} alt="brand4" />
-        <img className="lg:w-[157px] lg:h-[37px] w-full" src={img5} alt="brand5" />
+      <div className="grid grid-cols-1 lg:grid-cols-5 md:grid-cols-3 justify-between lg:gap-[176px] gap-20  mx-auto lg:mt-[70px] -mt-[215px] z-50">
+        <img
+          className="lg:w-[157px] lg:h-[37px] w-96"
+          src={img1}
+          alt="brand1"
+        />
+        <img
+          className="lg:w-[157px] lg:h-[37px] w-96"
+          src={img2}
+          alt="brand2"
+        />
+        <img
+          className="lg:w-[157px] lg:h-[37px] w-96"
+          src={img3}
+          alt="brand3"
+        />
+        <img
+          className="lg:w-[157px] lg:h-[37px] w-96"
+          src={img4}
+          alt="brand4"
+        />
+        <img
+          className="lg:w-[157px] lg:h-[37px] w-96"
+          src={img5}
+          alt="brand5"
+        />
       </div>
     </Container>
   );

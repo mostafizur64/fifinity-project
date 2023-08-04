@@ -22,9 +22,18 @@ const Navbar = () => {
         <Link href="/blog">Media</Link>
       </li>
       <li>
-        <Link className="lg:hidden block" href="/blog">
-          Start Free Trial
-        </Link>
+        <button
+          className="lg:hidden block btn text-[#FFFFFF] capitalize bg justify-center items-center"
+          href="/blog"
+          style={{
+            backgroundColor:
+              "linear-gradient(180deg, rgba(207, 184, 255, 0.24) 0%, rgba(207, 184, 255, 0.00) 100%)",
+            borderRadius: "38px",
+            border: "0.5px solid var(--7-a-49-ff, #7A49FF)",
+          }}
+        >
+          start Free Trial
+        </button>
       </li>
     </>
   );
@@ -34,10 +43,10 @@ const Navbar = () => {
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
+              <label tabIndex={0} className="btn btn-ghost lg:hidden text-white border ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -72,7 +81,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-           <button
+            <button
               className="hidden lg:block px-[30px] py-[16px] text-[#FFFFFF] "
               style={{
                 backgroundColor:

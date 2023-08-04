@@ -65,7 +65,7 @@ const ProactiveMarketMaker = () => {
                     Buy Back And Burn 15%
                     </h2>
                     <div className="border-l border-[#A787FF] lg:-mt-[30px] lg:pt-[30px] lg:-left-[32px]  absolute" />
-                    <p className="text-[16px] font-normal mt-4 text-[#64677C] capitalize">
+                    <p className="text-[16px] font-normal mt-4 text-[#64677C] capitalize ">
                     A highly optimized proactive market maker designed to improve capital efficiency and reduce impermanent loss.
                     </p>
                   </div>

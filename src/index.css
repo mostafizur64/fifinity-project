@@ -114,6 +114,9 @@
 .footer {
   background-image: url("../src/assets/image/Footer/footer.png");
   background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
   margin: 0 auto;
   margin-top: 180px;
 }

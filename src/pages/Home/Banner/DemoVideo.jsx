@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import video from "../../../assets/video/songs.mp4";
-
+import shadowlight from "../../../assets/image/Shadowlight/shadowlight.png";
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
@@ -48,28 +48,41 @@ function App() {
           border: "1px solid rgba(255, 255, 255, 0.08)",
           background:
             "radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 255, 255, 0.00) 40.53%, rgba(255, 255, 255, 0.01) 100%)",
-         
         }}
-      ></div>
+      >
+        {/* first light  left-[263px]
+    top-[40px]*/}
+        <div className="absolute lg:top-[126px] lg:right-[271px] hidden lg:block">
+          <img src={shadowlight} alt="shadowlight" />
+        </div>
+      </div>
       <div
         className="absolute  left-[50%]  translate-x-[-50%] rounded-t-[600px] -top-[280px] second-shadow"
         style={{
           border: "1px solid rgba(255, 255, 255, 0.08)",
           background:
             "radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 255, 255, 0.00) 40.53%, rgba(255, 255, 255, 0.01) 100%)",
-          
         }}
-      ></div>
+      >
+        {/* second light  md:-top-[12px] md:right-[580px]  left-[148px] -top-[11px]*/}
+        <div className="absolute  lg:-top-[12px] lg:right-[580px] hidden lg:block">
+          <img src={shadowlight} alt="shadowlight" />
+        </div>
+      </div>
       <div className="bg-[#7A49FF]"></div>
       <div
-        className="absolute bg-red-500 left-[50%]  translate-x-[-50%] rounded-t-[500px] -top-[170px] third-shadow"
+        className="absolute left-[50%]  translate-x-[-50%] rounded-t-[500px] -top-[170px] third-shadow"
         style={{
           border: "1px solid rgba(255, 255, 255, 0.08)",
           background:
             "radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 255, 255, 0.00) 40.53%, rgba(255, 255, 255, 0.01) 100%)",
-          
         }}
-      ></div>
+      >
+        {/* third light sm:left-[34px] sm:top-[36px] */}
+        <div className="absolute lg:top-[82px] lg:right-[780px] hidden lg:block ">
+          <img src={shadowlight} alt="shadowlight" />
+        </div>
+      </div>
     </div>
   );
 }

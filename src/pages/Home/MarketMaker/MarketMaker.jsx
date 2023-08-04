@@ -12,7 +12,7 @@ const MarketMaker = () => {
           </h2>
           <p className="text-xl capitalize font-normal mt-4 mb-10 text-[#64677C]">
             A highly optimized proactive market maker designed to improve
-            capital efficiency and reduce impermanent loss.
+            capital efficiency and whiteuce impermanent loss.
           </p>
           <div>
             <form action="">
@@ -25,7 +25,7 @@ const MarketMaker = () => {
                   />
                   <FaArrowRight
                     className="absolute top-7 lg:right-[63px] right-[40px] bottom-0"
-                    color="red"
+                    color="white"
                     size={20}
                   />
                 </div>
@@ -33,11 +33,11 @@ const MarketMaker = () => {
                   <input
                     className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
-                    placeholder="01 - Concentrated Liquidity"
+                    placeholder="02 - Proactive Market Making"
                   />
                   <FaArrowRight
                     className="absolute top-7 lg:right-[63px] right-[40px] bottom-0"
-                    color="red"
+                    color="white"
                     size={20}
                   />
                 </div>
@@ -45,11 +45,11 @@ const MarketMaker = () => {
                   <input
                     className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
-                    placeholder="01 - Concentrated Liquidity"
+                    placeholder="03 - Rebalancing Mechanism"
                   />
                   <FaArrowRight
                     className="absolute top-7 lg:right-[63px] right-[40px] bottom-0"
-                    color="red"
+                    color="white"
                     size={20}
                   />
                 </div>
@@ -57,11 +57,11 @@ const MarketMaker = () => {
                   <input
                     className="custom-value px-[30px] py-[24px] lg:text-[20px]"
                     type="text"
-                    placeholder="01 - Concentrated Liquidity"
+                    placeholder="04 - Rebalancing Mechanism"
                   />
                   <FaArrowRight
                     className="absolute top-7 lg:right-[63px] right-[40px] bottom-0"
-                    color="red"
+                    color="white"
                     size={20}
                   />
                 </div>
