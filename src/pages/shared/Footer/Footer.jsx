@@ -3,26 +3,25 @@ import React from "react";
 import logo from "../../../assets/image/logo/logo.png";
 import logo1 from "../../../assets/image/logo/logo1.png";
 import footerLine from "../../../assets/image/Footer/Footer Line.png";
-import Container from "../../../components/Container";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer lg:w[1520px] lg:h-[446px] h-[720px] sm:h-[1000px] lg:px-[180px] px-4 ">
+      <footer className="footer lg:w[1520px] lg:h-[446px] h-[725px]  lg:px-[180px] px-4 lg:top-[10px]">
         <div>
           <div>
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center gap-4 lg:py-[100px]">
               <div>
                 <img src={logo} alt />
                 <img src={logo1} alt />
-                <p className="text-[#64677C] text-[16px] font-normal	">
-                  We growing up your business with <br /> personal AI manager.
+                <p className="text-[#64677C] text-[16px] font-normal	mt-2">
+                  We growing up your business with <br />  personal AI manager.
                 </p>
               </div>
               <div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 justify-between items-center lg:gap-[195px]">
+                <div className="grid grid-cols-1 lg:grid-cols-3 justify-between items-center lg:gap-[186px]">
                   <div className=" ">
-                    <h2 className="text-[16px] uppercase mt-[18px] text-[#FFF]">
+                    <h2 className="text-[16px] uppercase  text-[#FFF]">
                       {" "}
                       Platform
                     </h2>
@@ -75,12 +74,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <img className="-mt-[7px]" src={footerLine} alt="" />
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mt-[38px] ">
-              <div className="lg:col-span-1 text[#FFFFFF]">
-                <h3>© 2023 Maxwell Inc.</h3>
+            <img className="lg:-mt-[-1px] mt-2" src={footerLine} alt="" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 lg:mt-[38px] mt-2 ">
+              <div className="lg:col-span-1 text-[#64677C]">
+                <h3 className="text-[14px] ">© 2023 Maxwell Inc.</h3>
               </div>
-              <div className="lg:col-span-1 flex lg:flex-row flex-col gap-5 justify-end">
+              <div className="lg:col-span-1 flex lg:flex-row flex-col gap-5 justify-end text-[14px]">
                 <a className="text-[#64677C]" href="#">
                   Terms of Service
                 </a>
