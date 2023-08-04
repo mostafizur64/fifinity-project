@@ -22,31 +22,31 @@ const Banner = () => {
 
         {/* <div className="relative">
           <img
-            className=" absolute w-[1560px] h-[1560px] top-[50px] text-red-500 shodow1"
+            className=" absolute max-w-[1560px] h-[1560px] top-[50px] text-red-500 shodow1"
             src={shadow1}
             alt="shadow1"
           />
           <img
-            className=" absolute w-[1444px] h-[1444px] top-[90px] left-20 p-[90px] text-red-500 shodow2"
+            className=" absolute max-w-[1444px] h-[1444px] top-[90px] left-20 p-[90px] text-red-500 shodow2"
             src={shadow2}
             alt="shadow2"
           />
           <img
-            className=" absolute w-[1224px] h-[1224px] top-[300px] left-[170px] text-red-500 shodow3"
+            className=" absolute max-w-[1224px] h-[1224px] top-[300px] left-[170px] text-red-500 shodow3"
             src={shadow3}
             alt="shadow3"
           />
         </div> */}
 
         {/* second large banner heading */}
-        <div className="text-center lg:mt-[40px] ">
-          <h2 className="text-[72px] capitalize font-medium text-[#FFFFFF]">
+        <div className="text-center ">
+          <h2 className="text-[72px] capitalize font-medium text-[#FFFFFF] lg:mt-[50px] ">
             Proactive market maker
           </h2>
           <h3 className="text-[52px] capitalize font-extralight text-[#FFF] mt-[4px]">
             with concentrated liquidity
           </h3>
-          <div className="flex flex-row justify-center items-center gap-[10px] text-[#FFFFFF] mt-[40px]">
+          <div className="flex flex-row justify-center items-center gap-[10px] text-[#FFFFFF] mt-[40px] lg:mb-[140px]">
             <button className="launch_btn">Launch App</button>
             <button className="trail_Btn ">Start Free Trial</button>
           </div>

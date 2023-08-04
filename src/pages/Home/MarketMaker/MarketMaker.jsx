@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const MarketMaker = () => {
   return (
     <Container>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:mt-[180px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:mt-[180px] shadow-color">
         <div className="lg:p-[50px] mt-12">
           {/* left side */}
           <h2 className="text-[45px] capitalize text-[#FFF]">

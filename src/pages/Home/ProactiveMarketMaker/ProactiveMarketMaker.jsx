@@ -6,7 +6,7 @@ import lineBar from "../../../assets/image/proactiveImage/line.png";
 const ProactiveMarketMaker = () => {
   return (
     <ContainerTwo>
-      <div className="bg lg:mt-[180px]">
+      <div className="bg lg:mt-[180px] relative ">
         <div className="text-center lg:p-[100px]">
           <h2 className="text-[45px] capitalize text-[#FFF] ">
             Proactive Market Maker
@@ -86,6 +86,7 @@ const ProactiveMarketMaker = () => {
             </div>
           </div>
         </div>
+        <div></div>
       </div>
     </ContainerTwo>
   );
