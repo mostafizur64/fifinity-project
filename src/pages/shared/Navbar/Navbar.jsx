@@ -6,20 +6,20 @@ import logo1 from "../../../assets/image/logo/logo1.png";
 const Navbar = () => {
   const navItems = (
     <>
-      <li>
-        <Link href="/">Product</Link>
+      <li >
+        <Link className="navhover" to="/">Product</Link>
       </li>
       <li>
-        <Link href="/aboutUs">Community</Link>
+        <Link className="navhover"  to="/">Community</Link>
       </li>
       <li>
-        <Link href="/service">Company</Link>
+        <Link className="navhover"  to="/">Company</Link>
       </li>
       <li>
-        <Link href="/pages">Docs</Link>
+        <Link className="navhover"  to="/">Docs</Link>
       </li>
       <li>
-        <Link href="/blog">Media</Link>
+        <Link className="navhover"  to="/">Media</Link>
       </li>
       <li>
         <button
@@ -43,7 +43,10 @@ const Navbar = () => {
         <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden text-white border ">
+              <label
+                tabIndex={0}
+                className="btn btn-ghost lg:hidden text-white border "
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -61,7 +64,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box text-[#FFFFFF] text-[14px]"
+                className="menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box text-[#FFFFFF] text-[14px]"
               >
                 {navItems}
               </ul>
@@ -76,7 +79,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="navbar-center hidden lg:flex text-[#FFFFFF]">
-            <ul className="menu menu-horizontal px-1 text-[14px]">
+            <ul className="menu menu-horizontal px-1 text-[14px] ">
               {navItems}
             </ul>
           </div>

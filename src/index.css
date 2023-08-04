@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* navbar  */
+.navhover:hover {
+  color: white ;
+}
 .launch_btn {
   display: flex;
   padding: 18px 40px;
@@ -17,6 +21,7 @@
   );
   backdrop-filter: blur(4px);
 }
+/* start .trail_Btn css  */
 .trail_Btn {
   display: flex;
   padding: 18px 27px;
@@ -130,13 +135,13 @@
   height: 600px;
   max-width: calc(2 * 600px);
   width: 100%;
-  /* box-shadow:10px -0px 100px #7A49FF; */
+  
 }
 .third-shadow {
   height: 500px;
   max-width: calc(2 * 500px);
   width: 100%;
-  /* box-shadow:10px -0px 50px #7A49FF; */
+
 }
 .market-shadow::after {
   content: "";
@@ -151,6 +156,7 @@
   filter: blur(150px);
 }
 
+/* responsive desing  */
 @media (max-width: 992px) {
   .first-shadow {
     width: "350px" !important;
